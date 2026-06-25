@@ -38,13 +38,14 @@ Pipeline registers are used between stages to store instruction data, control si
 - Created test programs to verify supported MIPS instructions and processor behavior.
 - Analyzed simulation waveforms to debug instruction execution and pipeline operation.
 
+
 ## Project Structure
 ```text
 rtl/            Source RTL files
 tb/             Testbench files
 doc/            Architecture notes and diagrams
 testprogram/    Test Program and HEX Files
-
+```
 
 
 # =================================================================

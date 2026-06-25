@@ -47,29 +47,20 @@ doc/            Architecture notes and diagrams
 testprogram/    Test Program and HEX Files
 ```
 
+## Reminder
 
-# =================================================================
-#    Ways to Store instruction into Instruction Memory
-# =================================================================
+# Ways to Store instruction into Instruction Memory
  - Have to copy the HEX file path and paste into the memu.sv module
 
-# =================================================================
-#    Individual Instruction Test
-# =================================================================
+# Individual Instruction Test
  - Use the funct_call.hex HEX file
 
-# =================================================================
-#    Building Block Test
-# =================================================================
+# Building Block Test
  - Use the building_block.hex HEX file
 
-# =================================================================
-#    Function Call Test
-# =================================================================
+# Function Call Test
  - Use the funct_call.hex HEX file
 
-# =================================================================
-#   Reminder
-# =================================================================
+# Info
  - All the program will have inserted 9 nop, to replace the 
    realtime setup provided by qtspim

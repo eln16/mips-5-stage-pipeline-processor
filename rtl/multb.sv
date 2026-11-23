@@ -1,4 +1,14 @@
-module multb (
+//##################################################################################################
+/*
+Project / Module    : mipsc
+File name           : mipsc.sv
+Version             : 1-0
+Date created        : 1 SEPTEMBER 2025
+Author              : Wong Carman
+Code type           : Behavioural (System Verilog)
+Description         : 
+*/
+//##################################################################################################module multb (
     input                    ib_multb_clk,
     input                    ib_multb_rst,     // Active-high reset
     input   [31:0]           ib_multb_mulcn,   // multiplicand

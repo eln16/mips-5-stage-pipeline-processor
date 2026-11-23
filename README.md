@@ -22,7 +22,6 @@ This project implements a MIPS ISA compatible 5-stage pipeline processor using S
 
 ## System Architecture
 The processor is divided into five major pipeline stages:
-
 1. Instruction Fetch
 2. Instruction Decode
 3. Execute
@@ -39,7 +38,7 @@ Pipeline registers are used between stages to store instruction data, control si
 - Analyzed simulation waveforms to debug instruction execution and pipeline operation.
 
 
-## Project Structure
+## Project Structure ##
 ```text
 rtl/            Source RTL files
 tb/             Testbench files
